@@ -1,0 +1,61 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.App {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow-x: auto; /* Added to ensure the container allows horizontal scrolling */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+  white-space: nowrap; /* Ensures that text in cells does not wrap */
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.loading {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.filterable-table {
+  margin-top: 20px;
+  overflow-x: auto; /* Ensures the table container allows horizontal scrolling */
+}
